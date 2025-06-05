@@ -1,0 +1,189 @@
+.textoinicial {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.segundotexto {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textop {
+    color: black;
+    font-size: 20px; /* Aumentei a fonte, opcional */
+    text-align: center;
+    max-width: none; /* sem limitação */
+    width: 100%;
+    font-weight: bold; /*  Deixa o texto em negrito */
+}
+
+.textosub {
+    color: rgb(67, 67, 67);
+    font-size: 18px;
+    max-width: none; /* <<< Removi a limitação */
+    width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.containertitulo {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttonc a{
+  background: rgb(167, 166, 166);
+  text-decoration: none;
+  padding: 20px 70px;
+  margin-right: 10px;
+  border-radius: 6px;
+  color: black;
+}
+
+.bloco-destaque {
+  display: flex;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 10px; /* Espaçamento entre o texto e a imagem */
+  margin-bottom: 10px;
+  justify-content: center; /* Alinha à esquerda */
+   width: 100%;
+    max-width: 100%;
+}
+
+.secao-compra {
+    display: flex;
+    justify-content: center;
+    padding: 19px 0;
+    background-color: rgb(221, 218, 218);
+    border-radius: 12px; /* <<< Arredonda os cantos */
+}
+
+.secao-compra div {
+    text-align: center; /* Garante que o conteúdo do div está centralizado */
+}
+
+.imagem-destaque {
+  width: 580px; /* Aumenta o tamanho da imagem */
+  height: auto;
+  border-radius: 8px;
+}
+
+.imagem-logo {
+  width: 120px; /* Aumenta o tamanho da imagem */
+  height: auto;
+
+}
+
+.textonumero {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.textoSubtitulo {
+    color: black;
+    font-size: 20px;
+}
+
+.secao {
+  display: flex; /* Ativa o flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  flex-wrap: wrap; /* Quebra linha se não couberem todas */
+  gap: 20px; /* Espaçamento entre imagens */
+  padding: 10px;
+}
+
+.faixa {
+    width: 100%;
+    height: 60px;
+    background-color: red; /* Cor azul */
+    text-align: center;
+    line-height: 60px; /* Centraliza o texto verticalmente */
+    color: #f4f4f4;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço: um em cada canto */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+.link {
+  color: gray;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.imagem-link{
+   width: 25px; /* Aumenta o tamanho da imagem */
+  height: auto;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.containercontato {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço: um em cada canto */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
+
+.buttons a {
+  background: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.faixab {
+    width: 100%;
+    height: 150px;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 50px; /* Centraliza o texto verticalmente */
+    color: black;
+    font-size: 16px;
+}
